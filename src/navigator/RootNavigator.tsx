@@ -8,6 +8,8 @@ import { STORAGE_KEYS } from '../utils/storageKeys';
 import { setIsFirstTime } from '../features/appSlice';
 import Splash from '../screens/Splash';
 import Onboarding from '../screens/Onboarding';
+import AuthNavigator from './AuthNavigator';
+import AppNavigator from './AppNavigator';
 
 const Center = ({ label }: { label: string }) => (
   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -58,9 +60,9 @@ const RootNavigator = () => {
   const canEnterApp = isAuthenticated || isGuest;
 
   return canEnterApp ? (
-    <Center label={isGuest ? 'App (Guest Mode)' : 'App (Logged In)'} />
+   <AppNavigator/>
   ) : (
-    <Center label="Auth Screen (Login / Signup)" />
+    <AuthNavigator/>
   );
 };
 

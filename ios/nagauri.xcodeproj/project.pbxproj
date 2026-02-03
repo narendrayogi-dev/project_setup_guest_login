@@ -11,17 +11,17 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BEBFE088EA0343D9A66CAF1D /* Gordita-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95B676EDD1CF4C2488FCD374 /* Gordita-Black.otf */; };
-		FAF1B89CEE7D44879535DE87 /* Gordita-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC9E3681A0114F3492EA39D5 /* Gordita-BlackItalic.otf */; };
-		950AE698725A4F009911D16C /* Gordita-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB2701E579384C8DA85BA016 /* Gordita-Bold.otf */; };
-		1EAF3848DFBA4EFDBC8C374F /* Gordita-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50569DBF4AEB44B3B51E8CEA /* Gordita-BoldItalic.otf */; };
-		D6169DDF60B244C09F78C5B6 /* Gordita-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2908E0AE34194A4E673AD /* Gordita-Light.otf */; };
-		0F5C8D2B10254D929A919DAB /* Gordita-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA56C1A3632432FA4FC070E /* Gordita-LightItalic.otf */; };
-		0818D4FE93FE4D8083DBD924 /* Gordita-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 957D464B1F3844DD93FFC48D /* Gordita-Medium.otf */; };
-		9DAFAFC677CA4FED9019AE4A /* Gordita-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A610993324D84A81F0D7B /* Gordita-MediumItalic.otf */; };
-		16199F455782493FBA733573 /* Gordita-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58B2FE66DCC742219B00163C /* Gordita-Regular.otf */; };
-		68755DB79D954773A891191A /* Gordita-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 956A0E39031C4B94A921ECB8 /* Gordita-RegularItalic.otf */; };
-		7A6C9F299677412488CF2D7A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBA5E07EC55248BD8FBD98CD /* OFL.txt */; };
+		B10F48E0B50346BAA270DFE5 /* Gordita-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */; };
+		5A1B9ECC546F418C9B7D439C /* Gordita-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */; };
+		62DCF0E552ED41ECA94A512D /* Gordita-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6496A289B66341C2940CAA4B /* Gordita-Bold.otf */; };
+		9EA3A5ACE02D468CBFADC66A /* Gordita-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */; };
+		C5487FEE78864C639733EC12 /* Gordita-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */; };
+		F4737CE47A28478B946B52ED /* Gordita-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */; };
+		43CB9DB3E19B4F988D7FF681 /* Gordita-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */; };
+		59CA51A041CB44AA960069BF /* Gordita-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */; };
+		B3F8B27C8FBF410084822233 /* Gordita-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 32DA27206A2342B38E16A48C /* Gordita-Regular.otf */; };
+		CBDE7E5D99E0483A8788F8CF /* Gordita-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */; };
+		30C7077945714655A7214E44 /* Mogra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,17 +35,17 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = nagauri/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nagauri/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		95B676EDD1CF4C2488FCD374 /* Gordita-Black.otf */ = {isa = PBXFileReference; name = "Gordita-Black.otf"; path = "../assets/fonts/Gordita-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC9E3681A0114F3492EA39D5 /* Gordita-BlackItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BlackItalic.otf"; path = "../assets/fonts/Gordita-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB2701E579384C8DA85BA016 /* Gordita-Bold.otf */ = {isa = PBXFileReference; name = "Gordita-Bold.otf"; path = "../assets/fonts/Gordita-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		50569DBF4AEB44B3B51E8CEA /* Gordita-BoldItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BoldItalic.otf"; path = "../assets/fonts/Gordita-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBB2908E0AE34194A4E673AD /* Gordita-Light.otf */ = {isa = PBXFileReference; name = "Gordita-Light.otf"; path = "../assets/fonts/Gordita-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3DA56C1A3632432FA4FC070E /* Gordita-LightItalic.otf */ = {isa = PBXFileReference; name = "Gordita-LightItalic.otf"; path = "../assets/fonts/Gordita-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		957D464B1F3844DD93FFC48D /* Gordita-Medium.otf */ = {isa = PBXFileReference; name = "Gordita-Medium.otf"; path = "../assets/fonts/Gordita-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4A8A610993324D84A81F0D7B /* Gordita-MediumItalic.otf */ = {isa = PBXFileReference; name = "Gordita-MediumItalic.otf"; path = "../assets/fonts/Gordita-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		58B2FE66DCC742219B00163C /* Gordita-Regular.otf */ = {isa = PBXFileReference; name = "Gordita-Regular.otf"; path = "../assets/fonts/Gordita-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		956A0E39031C4B94A921ECB8 /* Gordita-RegularItalic.otf */ = {isa = PBXFileReference; name = "Gordita-RegularItalic.otf"; path = "../assets/fonts/Gordita-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBA5E07EC55248BD8FBD98CD /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */ = {isa = PBXFileReference; name = "Gordita-Black.otf"; path = "../assets/fonts/Gordita-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BlackItalic.otf"; path = "../assets/fonts/Gordita-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6496A289B66341C2940CAA4B /* Gordita-Bold.otf */ = {isa = PBXFileReference; name = "Gordita-Bold.otf"; path = "../assets/fonts/Gordita-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BoldItalic.otf"; path = "../assets/fonts/Gordita-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */ = {isa = PBXFileReference; name = "Gordita-Light.otf"; path = "../assets/fonts/Gordita-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */ = {isa = PBXFileReference; name = "Gordita-LightItalic.otf"; path = "../assets/fonts/Gordita-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */ = {isa = PBXFileReference; name = "Gordita-Medium.otf"; path = "../assets/fonts/Gordita-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */ = {isa = PBXFileReference; name = "Gordita-MediumItalic.otf"; path = "../assets/fonts/Gordita-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32DA27206A2342B38E16A48C /* Gordita-Regular.otf */ = {isa = PBXFileReference; name = "Gordita-Regular.otf"; path = "../assets/fonts/Gordita-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */ = {isa = PBXFileReference; name = "Gordita-RegularItalic.otf"; path = "../assets/fonts/Gordita-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */ = {isa = PBXFileReference; name = "Mogra-Regular.ttf"; path = "../assets/fonts/Mogra-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,17 +123,17 @@
 		BA454C2C2925488386041392 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				95B676EDD1CF4C2488FCD374 /* Gordita-Black.otf */,
-				FC9E3681A0114F3492EA39D5 /* Gordita-BlackItalic.otf */,
-				AB2701E579384C8DA85BA016 /* Gordita-Bold.otf */,
-				50569DBF4AEB44B3B51E8CEA /* Gordita-BoldItalic.otf */,
-				CBB2908E0AE34194A4E673AD /* Gordita-Light.otf */,
-				3DA56C1A3632432FA4FC070E /* Gordita-LightItalic.otf */,
-				957D464B1F3844DD93FFC48D /* Gordita-Medium.otf */,
-				4A8A610993324D84A81F0D7B /* Gordita-MediumItalic.otf */,
-				58B2FE66DCC742219B00163C /* Gordita-Regular.otf */,
-				956A0E39031C4B94A921ECB8 /* Gordita-RegularItalic.otf */,
-				CBA5E07EC55248BD8FBD98CD /* OFL.txt */,
+				9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */,
+				660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */,
+				6496A289B66341C2940CAA4B /* Gordita-Bold.otf */,
+				A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */,
+				F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */,
+				F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */,
+				EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */,
+				2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */,
+				32DA27206A2342B38E16A48C /* Gordita-Regular.otf */,
+				B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */,
+				3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -201,17 +201,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BEBFE088EA0343D9A66CAF1D /* Gordita-Black.otf in Resources */,
-				FAF1B89CEE7D44879535DE87 /* Gordita-BlackItalic.otf in Resources */,
-				950AE698725A4F009911D16C /* Gordita-Bold.otf in Resources */,
-				1EAF3848DFBA4EFDBC8C374F /* Gordita-BoldItalic.otf in Resources */,
-				D6169DDF60B244C09F78C5B6 /* Gordita-Light.otf in Resources */,
-				0F5C8D2B10254D929A919DAB /* Gordita-LightItalic.otf in Resources */,
-				0818D4FE93FE4D8083DBD924 /* Gordita-Medium.otf in Resources */,
-				9DAFAFC677CA4FED9019AE4A /* Gordita-MediumItalic.otf in Resources */,
-				16199F455782493FBA733573 /* Gordita-Regular.otf in Resources */,
-				68755DB79D954773A891191A /* Gordita-RegularItalic.otf in Resources */,
-				7A6C9F299677412488CF2D7A /* OFL.txt in Resources */,
+				B10F48E0B50346BAA270DFE5 /* Gordita-Black.otf in Resources */,
+				5A1B9ECC546F418C9B7D439C /* Gordita-BlackItalic.otf in Resources */,
+				62DCF0E552ED41ECA94A512D /* Gordita-Bold.otf in Resources */,
+				9EA3A5ACE02D468CBFADC66A /* Gordita-BoldItalic.otf in Resources */,
+				C5487FEE78864C639733EC12 /* Gordita-Light.otf in Resources */,
+				F4737CE47A28478B946B52ED /* Gordita-LightItalic.otf in Resources */,
+				43CB9DB3E19B4F988D7FF681 /* Gordita-Medium.otf in Resources */,
+				59CA51A041CB44AA960069BF /* Gordita-MediumItalic.otf in Resources */,
+				B3F8B27C8FBF410084822233 /* Gordita-Regular.otf in Resources */,
+				CBDE7E5D99E0483A8788F8CF /* Gordita-RegularItalic.otf in Resources */,
+				30C7077945714655A7214E44 /* Mogra-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

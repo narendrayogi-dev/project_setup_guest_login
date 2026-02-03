@@ -9,14 +9,15 @@ import { FONT_FAMILY } from '../utils/utils';
 export const myTheme = {
   /* ================= COLORS ================= */
   colors: {
-    background: '#FFFFFF',
+    background: '#F7F3E9',
     surface: '#FFFFFF',
+    bottomTabBackground:"#000",
 
-    primary: '#272757',
+    primary: '#AB6005',
     secondary: '#0E306C',
 
     textPrimary: '#000000',
-    textSecondary: '#5F6C7B',
+    textSecondary: '#808080',
     textInverse: '#FFFFFF',
 
     buttonBg: '#0B8AAE',
@@ -28,7 +29,7 @@ export const myTheme = {
     success: '#43A729',
     danger: '#F01414',
     warning: '#FFB402',
-
+ GOLD_GRADIENT: ['#C99616', '#B96B09', '#C99616'],
     statusBar: '#0A204A',
   },
 
@@ -74,6 +75,13 @@ export const myTheme = {
       borderRadius: moderateScale(12),
       alignItems: 'center',
       justifyContent: 'center',
+    },
+    authImage: {
+      width: moderateScale(200),
+      height: moderateScale(200),
+      alignSelf: 'center',
+      // borderRadius:999
+      // resizeMode:'contain'
     },
 
     input: {

@@ -9,14 +9,17 @@ import Toast from 'react-native-toast-message'
 import { NavigationContainer, NavigationContainerRef } from '@react-navigation/native';
 import { KeyboardProvider } from "react-native-keyboard-controller";
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { navigationRef } from './src/utils/navigationUtils';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 
 
 
 const App = () => {
-  const navigationRef = useRef<NavigationContainerRef<any>>(null);
+  // const navigationRef = useRef<NavigationContainerRef<any>>(null);
 
   return (
+        <GestureHandlerRootView>
     <KeyboardProvider>
     <Provider store={store}>
       <SafeAreaProvider>
@@ -28,6 +31,7 @@ const App = () => {
 
     </Provider>
     </KeyboardProvider>
+      </GestureHandlerRootView>
   )
 }
 

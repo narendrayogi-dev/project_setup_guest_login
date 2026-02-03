@@ -7,6 +7,22 @@ export const IMAGES = {
   onboardingArrow:require('../assets/images/onboardingArrow.png'), 
   styleArrow:require('../assets/images/styleArrow.png'), 
   onBoardBtn:require('../assets/images/onBoardBtn.png'), 
+  eyeOpen:require('../assets/images/eyeOpen.png'), 
+  eyeClose:require('../assets/images/hide.png'), 
+  googleIcon:require('../assets/images/google.png'), 
+  appleIcon:require('../assets/images/apple.png'), 
+  forogotPass:require('../assets/images/forogotPass.png'), 
+  verification:require('../assets/images/resetPass.png'), 
+  resetPass:require('../assets/images/verification.png'), 
+  successIcon:require('../assets/images/successIcon.png'), 
+  nagori:require('../assets/images/nagori.png'), 
+  bell:require('../assets/images/notification-bell.png'), 
+  cart:require('../assets/images/cart.png'), 
+  banner1:require('../assets/images/banner1.png'), 
+  dummy:require('../assets/images/dummy/dumy1.png'), 
+  star:require('../assets/images/star.png'), 
+  sort:require('../assets/images/sort.png'), 
+  filter:require('../assets/images/filter1.png'), 
 };
 
 export const FONT_FAMILY = {
@@ -18,6 +34,7 @@ export const FONT_FAMILY = {
   Bold: 'Gordita-Bold',
   ExtraBold: 'Gordita-ExtraBold',
   Black: 'Gordita-Black',
+  MograRegular:'Mogra-Regular'
 };
 
 
@@ -41,6 +58,10 @@ interface DisclaimerParams {
   medicineId: string;
 }
 
+interface PorductListingParams{
+  categoryId:string, 
+  categoryName:string
+}
 export type RootStackParamList = {
   Login: undefined;
   Register: undefined;
@@ -48,4 +69,6 @@ export type RootStackParamList = {
   VerificationPassword: verificationPasswordParams;
   ResetPassword: resetPasswodParams;
   Home: undefined;
+  ProductListing:PorductListingParams;
+  ProductDetails:undefined
 };

@@ -15,29 +15,29 @@ export const loginSchema = Yup.object().shape({
 });
 
 
+
 export const registerSchema = Yup.object().shape({
   name: Yup.string()
-    .trim()
-    .min(2, "Name must be at least 2 characters")
-    .max(50, "Name cannot exceed 50 characters")
-    .required("Name is required"),
+    .min(2, 'Name is too short')
+    .required('Name is required'),
 
   email: Yup.string()
-    .matches(emailRegex, "Please enter a valid email address")
-    .required("Email is required"),
+    .email('Invalid email')
+    .required('Email is required'),
+
+  mobileNumber: Yup.string()
+    .matches(/^[0-9]{10}$/, 'Invalid mobile number')
+    .required('Mobile number is required'),
 
   password: Yup.string()
-    .min(6, "Password must be at least 6 characters long")
-    .required("Password is required"),
-  confirmPassword: Yup.string()
-    .oneOf([Yup.ref('password')], 'Passwords do not match')
-    .required('Confirm password is required'),
+    .min(6, 'Password must be at least 6 characters')
+    .required('Password is required'),
 });
-export const forgotPasswordSchema = Yup.object().shape({
 
-  email: Yup.string()
-    .matches(emailRegex, "Please enter a valid email address")
-    .required("Email is required"),
+export const forgotPasswordSchema = Yup.object().shape({
+   mobileNumber: Yup.string()
+    .matches(/^[0-9]{10}$/, 'Invalid mobile number')
+    .required('Mobile number is required'),
 
 
 });

@@ -164,7 +164,7 @@ const styles = StyleSheet.create(theme => ({
         // padding: 10,
         backgroundColor: '#fff',
         position: 'absolute',
-        minHeight: '45%',
+        minHeight: '40%',
         bottom: 0,
         borderTopLeftRadius: 125,
     },
